@@ -41,3 +41,21 @@ print a,a.transpose(),a.T
 #stack
 #vstack hstack
 
+# split array
+a = np.floor(10*np.random.random((2,12)))
+print np.hsplit(a,3),'\n'
+print np.hsplit(a,(3,4)),'\n'
+print np.vsplit(a,2)
+
+
+#replication
+a = np.arange(12).reshape((2,6))
+b = a
+print a
+b.shape = 3,4
+print b
+
+c = np.random.standard_normal((2,10))
+print c,len(c)
+c.resize((4,5))
+print c.transpose()
