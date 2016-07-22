@@ -23,3 +23,11 @@ print zero,'\n',one
 
 #arange
 print np.arange(0,10,3)
+
+#elementaion
+A = np.array([[1,2],[3,4]])
+B = np.array([[1,2],[3,4]])
+print A*B
+print np.dot(A,B)
+print A.sum(),A.min()
+print B.sum(axis=0),'\n',B.cumsum(axis=1)
