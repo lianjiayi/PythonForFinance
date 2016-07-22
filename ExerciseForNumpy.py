@@ -59,3 +59,11 @@ c = np.random.standard_normal((2,10))
 print c,len(c)
 c.resize((4,5))
 print c.transpose()
+print np.linspace(0,10,4)
+d = np.arange(0,10,2)
+print c[1:3,0:10]
+
+#linalg
+#solve 求方程的解
+
+#matrix
