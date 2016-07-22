@@ -31,3 +31,13 @@ print A*B
 print np.dot(A,B)
 print A.sum(),A.min()
 print B.sum(axis=0),'\n',B.cumsum(axis=1)
+
+#change shape
+a = np.floor(10*np.random.random((3,4)))
+a.ravel() #flaten the array
+a.shape = (6,2)
+print a,a.transpose(),a.T
+
+#stack
+#vstack hstack
+
